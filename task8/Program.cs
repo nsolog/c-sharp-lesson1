@@ -3,7 +3,7 @@ string number = Console.ReadLine();
 
 int convertedNumber = int.Parse(number);
 
-for (int i = 1; i <= convertedNumber; i++)
+for (float i = 1; i <= convertedNumber; i++)
 {
     if (i % 2 == 0)
     {

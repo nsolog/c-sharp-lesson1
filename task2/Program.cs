@@ -1,18 +1,18 @@
 ﻿Console.Write("Введите первое число: ");
-string a = Console.ReadLine();
+string numberA = Console.ReadLine();
 Console.Write("Введите второе число: ");
-string b = Console.ReadLine();
+string numberB = Console.ReadLine();
 
-int convertedA = int.Parse(a);
-int convertedB = int.Parse(b);
+int convertedA = int.Parse(numberA);
+int convertedB = int.Parse(numberB);
 
 if (convertedA > convertedB)
 {
     Console.Write("max = ");
-    Console.Write(a);
+    Console.Write(convertedA);
 }
 else
 {
     Console.Write("max = ");
-    Console.Write(b);
+    Console.Write(convertedB);
 }
